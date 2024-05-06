@@ -1,0 +1,400 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url("../assets/fonts/Gilroy-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Gilroy Medium";
+  src: url("../assets/fonts/Gilroy-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Gilroy Regular";
+  src: url("../assets/fonts/Gilroy-Regular.ttf");
+}
+@font-face {
+  font-family: "Gilroy SemiBold";
+  src: url("../assets/fonts/Gilroy-SemiBold.ttf");
+  font-weight: 500;
+}
+.hero {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  padding: 2vw 15vw;
+}
+nav {
+  margin-top: 1vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style: none;
+  font-family: Gilroy SemiBold;
+  font-size: 1.1vw;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.logo {
+  display: flex;
+  gap: 1vw;
+  justify-content: center;
+  align-items: center;
+}
+.logo h1 {
+  font-size: 2.4vw !important;
+  font-family: Gilroy Bold;
+  color: #df7857;
+}
+.download {
+  padding: 0.9vw 2vw;
+  background: #df7857;
+  color: white;
+  border-radius: 5px;
+  margin-left: 1vw;
+}
+.main {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .left {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .left .content h1 {
+  font-family: Gilroy Bold;
+  font-size: 3vw;
+  line-height: 3vw;
+  text-align: start;
+}
+.main .left .content p {
+  margin-top: 1.5vw;
+  font-family: Gilroy Medium;
+  font-size: 1.2vw;
+}
+.main .left .content button {
+  padding: 1vw 2vw;
+  border: 1px solid #df7857;
+  border-radius: 5px;
+  color: #df7857;
+  margin-top: 2vw;
+  cursor: pointer;
+  font-family: Gilroy SemiBold;
+  font-size: 1.2vw;
+  background-color: transparent;
+  transition: all 0.8s;
+}
+.main .left .content button:hover {
+  background: #df7857;
+  color: white;
+}
+.right {
+  width: 47%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right img {
+  width: 95%;
+  object-fit: contain;
+}
+.navbar {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(255, 255, 255);
+}
+#navbar {
+  display: none;
+}
+#cross {
+  width: 90%;
+}
+
+.navbar .header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3vh;
+  padding: 0 2vh;
+}
+.mainHeader {
+  margin-left: 2vw;
+  margin-top: 4vh;
+  padding: 0 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.7vh;
+}
+.mainHeader li {
+  font-size: 2.3vh;
+}
+.mainHeader .download {
+  margin-top: 3vh;
+  padding: 1vh 3vh;
+}
+@media screen and (min-width: 600px) {
+  .menu {
+    display: none;
+  }
+}
+
+/*   second  */
+
+/* pricing */
+
+.pricing {
+  width: 100%;
+  text-align: center;
+  background: #f7f7f7;
+  padding: 5vmax 15vmax;
+}
+.pricing h1 {
+  font-family: Gilroy Bold;
+  font-size: 1.4vw;
+  font-weight: 900;
+  color: #df7857;
+}
+.pricing h2 {
+  margin-top: 1vmax;
+  font-family: Gilroy Bold;
+  font-size: 2.5vw;
+  font-weight: 900;
+  color: #ad5a3e;
+}
+.pricing p {
+  margin: auto;
+  width: 55%;
+  font-family: Gilroy Bold;
+  font-size: 1vw;
+  color: #999191;
+  margin-top: 1vmax;
+}
+.box {
+  height: 100%;
+  display: flex;
+  gap: 2vmax;
+  margin-top: 5vmax;
+  justify-content: center;
+}
+.box11 {
+  width: 22%;
+  height: 45vmin;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 1px 2px 19px #0000006b;
+  padding: 2vmax;
+}
+.box2 {
+  width: 24%;
+  height: 47vmin;
+  margin-top: -0.7vmax;
+  border-top: 3px solid #df7857;
+}
+.box h1 {
+  font-family: Gilroy Bold;
+  font-size: 1.1vmax;
+}
+
+.box h6 {
+  margin-top: 1vmax;
+  font-size: 0.9vmax;
+  font-family: Gilroy Regular;
+  color: #757070;
+}
+.box button {
+  border: none;
+  font-family: Gilroy Regular;
+  color: white;
+  background: #df7857;
+  padding: 0.6vmax 1vmax;
+  border-radius: 5px;
+  margin-top: 2.9vmax;
+}
+.thrid {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.thrid h1 {
+  font-family: Gilroy Bold;
+  font-size: 1.3vmax;
+  color: #df7857;
+}
+.thrid h2 {
+  font-family: Gilroy Bold;
+  margin-top: 0.7vmax;
+  font-size: 2.5vmax;
+}
+.thrid p {
+  font-family: Gilroy Regular;
+  font-size: 1vmax;
+  width: 50%;
+  text-align: center;
+  color: #5a5858;
+  margin-top: 1.2vmax;
+}
+.thrid button,.second button {
+  border: none;
+  font-size: 0.9vmax;
+  font-family: Gilroy Bold;
+  padding: 0.9vmax 1.8vmax;
+  border-radius: 5px;
+  background-color: #df7857;
+  color: white;
+  margin-top: 2vmax;
+}
+.footer {
+  width: 100%;
+  height: 40%;
+  background: #df7857;
+  padding-top: 2%;
+}
+.footer h1 {
+  color: white;
+  font-size: 1.5vmax;
+  font-family: Gilroy Bold;
+  text-align: center;
+  margin-bottom: -10px;
+}
+.row {
+  width: 100%;
+  padding: 0% 17.5%;
+  color: rgb(255, 255, 255);
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.row h2 {
+  margin-bottom: 2vmax;
+  font-family: Gilroy Bold;
+  font-size: 1.8vmax;
+  position: relative;
+}
+.row h2::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  background: #ffffff;
+  border-radius: 5%;
+  bottom: -50%;
+  left: 0;
+}
+.row li {
+  list-style: none;
+  margin: 1vmax 0;
+  font-family: Gilroy Bold;
+}
+.link {
+  display: flex;
+  gap: 1.9vmax;
+}
+.social-links p {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 1.2vmax;
+}
+
+.social-links p:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5vmax;
+}
+
+.second {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vmax 15vmax;
+}
+.second .left {
+  width: 47%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second .left img {
+  width: 95%;
+  object-fit: contain;
+}
+.second .right {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.second .right h1{
+    font-family: Gilroy Bold;
+    font-size: 1.5vmax;
+}
+.second .right h2{
+    font-family: Gilroy Regular;
+    font-size: 1vmax;
+    color: #696969;
+    font-weight: 300;
+    margin-top: 1vmax;
+}
+.second .right .list{
+    margin-top: 2vmax;
+}
+.second .right .list li{
+    list-style: none;
+    font-family: Gilroy Regular;
+    font-size: 1vmax;
+    color: #696969;
+    font-weight: 300;
+    margin-top: .5vmax;
+}

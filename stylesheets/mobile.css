@@ -1,0 +1,188 @@
+@media screen and (max-width: 600px) {
+  .hero {
+    padding: 5vw;
+  }
+  .web {
+    display: none;
+  }
+  nav {
+    margin-top: 2vh;
+  }
+  .logo h1 {
+    font-size: 2.5vh !important;
+    margin-left: 2vw;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+  }
+  .menu button {
+    height: 28px !important;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 1vw 2vw !important;
+    border-radius: 4px;
+    font-size: 1.1vh;
+  }
+  .menu img {
+    width: 25%;
+  }
+
+  .main {
+    margin-top: 15vh;
+    height: 65vh;
+    flex-direction: column-reverse;
+  }
+  .second {
+    margin-top: 2vh;
+    height: 85vh;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 5vmax;
+  }
+  .second .left {
+    width: 90vmin !important;
+  }
+  .second .left img{
+    width: 100%;
+  }
+  .second .right {
+    width: 100vmin;
+  }
+  .right {
+    width: 100vmin;
+    padding: 2vmax 8vmax;
+  }
+  .right img{
+    width: 100%;
+  }
+  .left {
+    width: 90% !important;
+  }
+  .main .left .content h1 {
+    font-size: 4vh !important;
+    line-height: 4vh;
+    text-align: center;
+    margin-top: 7vh !important;
+  }
+  .main .left .content p {
+    font-size: 1.8vh !important;
+    margin-top: 1.5vh;
+    text-align: center;
+  }
+  .main .left .content button {
+    margin-top: 5vh;
+    font-size: 2vh !important;
+    padding: 1.2vh 2.4vh;
+    margin-left: 33%;
+  }
+  .pricing {
+    padding: 2vw;
+    padding-bottom: 6vmax;
+  }
+  .pricing h1 {
+    text-align: center;
+    font-size: 2vh;
+    margin-top: 2vh;
+  }
+  .pricing h2 {
+    font-size: 2.9vh;
+  }
+  .pricing p {
+    width: 80%;
+    font-size: 1.3vh;
+  }
+  .box {
+    width: 98vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vmax;
+  }
+  .box11 {
+    width: 75%;
+    height: 80vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .box  h6{
+    font-size: 1.3vh;
+  }
+  .box  h1{
+    font-size: 1.9vh;
+  }
+  .box  p{
+    font-size: 2.9vh;
+    margin-bottom: 6vh;
+  }
+  .box  button{
+    font-size: 1.8vh;
+    padding: 1.2vmax 2vmax;
+  }
+  .thrid{
+    padding: 0 10%; 
+    text-align: center;
+  }
+  .thrid h1{
+    font-size: 1.9vmax;
+  }
+  .thrid h2{
+    font-size: 3vmax;
+  }
+  .thrid p{
+    width: 100%;
+    font-size: 1.3vmax;
+  }
+  .thrid button{
+    font-size: 1.8vmax;
+    margin-top: 5vmax;
+  }
+  .second button {
+    font-size: 1.5vmax !important;
+  }
+  .footer {
+    padding-top: 3vmax;
+    min-height: 50vh;
+  }
+  .footer h1{
+    font-size: 2vmax;
+  }
+  .row{
+    flex-direction: column;
+  }
+  .row h2{
+    font-size: 2vmax;
+    margin-top: 2vmax;
+  }
+  .row h2::after{
+    width: 40px;
+    height: 2px;
+  }
+  .link{
+    flex-direction: column;
+    gap: 1vmin;
+}
+  .row li{
+    font-size: 1.5vmax;
+  }
+  .social-links{
+    margin-top: 5vmax;
+    margin-left: -2vmax;
+  }
+  .social-links p{
+    height: 40px;
+	  width: 40px;
+  }
+  .second {
+    flex-direction: column;
+  }
+  .second .right h1{
+    font-size: 2.5vmax;
+  }
+  .second .right h2,.second .right .list li{
+    font-size: 1.2vmax;
+  }
+}
+
