@@ -20,7 +20,7 @@
   .menu button {
     height: 28px !important;
     border: none;
-    background-color: blueviolet;
+    background-color: #df7857;
     color: white;
     padding: 1vw 2vw !important;
     border-radius: 4px;
@@ -50,6 +50,7 @@
   }
   .second .right {
     width: 100vmin;
+    text-align: center;
   }
   .right {
     width: 100vmin;
@@ -151,6 +152,7 @@
   }
   .row{
     flex-direction: column;
+    margin-left: .3vmax;
   }
   .row h2{
     font-size: 2vmax;
@@ -178,8 +180,15 @@
   .second {
     flex-direction: column;
   }
+  .second button{
+    margin: auto;
+    margin-top: 2vh;
+  }
   .second .right h1{
     font-size: 2.5vmax;
+  }
+  .second .right .list {
+    width: 100%;
   }
   .second .right h2,.second .right .list li{
     font-size: 1.2vmax;
