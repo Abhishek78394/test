@@ -183,6 +183,7 @@
   .second button{
     margin: auto;
     margin-top: 2vh;
+    margin-left: 6.5vmax;
   }
   .second .right h1{
     font-size: 2.5vmax;
@@ -192,6 +193,12 @@
   }
   .second .right h2,.second .right .list li{
     font-size: 1.2vmax;
+  }
+  .contact {
+    padding-top: 2vmax;
+  }
+  .contact a{
+    font-size: 2.5vmax;
   }
 }
 
